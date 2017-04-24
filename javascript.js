@@ -231,6 +231,6 @@ var usuarios = [
   }
 ];
 var usuario = usuarios.forEach(function(el){
-	document.write("<strong>" +"Username : " +"</strong>" +"<i>" + el.username + "</i>" +"<br>" + "<strong>" + "Address " + "</strong>" + "<i>" + el.address.street + " , " + el.address.city  +"</i>" + "<br>" + "<br>");
+	document.write("<strong>" +"Username : " +"</strong>" +"<i>" + el.username + "</i>" +"<br>" + "<strong>" + "Address " + "</strong>" + "<i>" + el.address.street + " , " + el.address.suite + " , "+ el.address.city  +"</i>" + "<br>" + "<br>");
 });
 document.write(usuario);
